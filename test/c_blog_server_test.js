@@ -39,8 +39,8 @@ let loginData = {
 describe('Server', () => {
 
   after((done) => {
-    return cleanup().then(() => { 
-      done(); 
+    return cleanup().then(() => {
+      done();
     }).catch(done);
   });
 
@@ -280,5 +280,5 @@ describe('Server', () => {
     });
 
   });
- 
+
 });
